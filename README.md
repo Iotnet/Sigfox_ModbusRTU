@@ -18,7 +18,7 @@ Basicamente, dentro de la red de dispositivos, existe un dispositivo Maestro (Ma
 
 Modbus RTU define una trama de datos especifica para la comunicación entre los dispositivos dentro del bus de comunicación y esta definida de la siguiente manera:
 
-![devkit2mod](https://github.com/Iotnet/Sigfox_ModbusRTU/blob/master/imagenes/modbus4.png?raw=true)
+![devkit2mod](https://github.com/Iotnet/Sigfox_ModbusRTU/blob/master/imagenes/modbus3.png?raw=true)
 
 donde 
 <br /> Slave address : es la direccion de esclavo del dispositivo.

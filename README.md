@@ -12,13 +12,13 @@ En este repositorio se mostrará un ejemplo de la implementacion del protocolo d
 
 Modbus es un protocolo de comunicacion industrial para la comunicación entre dispositivos para la automatización, el cual esta basado en el protocolo solicitud-respuesta (request-response) con una relacion Maestro-esclavo entre los diferentes dispositivos.
 
-![devkit2mod](https://github.com/Iotnet/Sigfox_ModbusRTU/blob/master/imagenes/modbus2.png?raw=true)
+![devkit2mod](https://github.com/Iotnet/Sigfox_ModbusRTU/blob/master/imagenes/modbus3.png?raw=true)
 
 Basicamente, dentro de la red de dispositivos, existe un dispositivo Maestro (Master) dentro de la red, que se encarga de enviar las solicitudes por medio del bus de comunicacion a los diferentes dispositivos esclavos (slaves) que tienen una direccion unica asignada. De esa manera los dispositivos esclavos reconocen la peticion y emiten una respuesta hacia el Maestro, en caso de que sea necesario.
 
 Modbus RTU define una trama de datos especifica para la comunicación entre los dispositivos dentro del bus de comunicación y esta definida de la siguiente manera:
 
-![devkit2mod](https://github.com/Iotnet/Sigfox_ModbusRTU/blob/master/imagenes/modbus3.png?raw=true)
+![devkit2mod](https://github.com/Iotnet/Sigfox_ModbusRTU/blob/master/imagenes/modbus4.png?raw=true)
 
 donde 
 <br /> Slave address : es la direccion de esclavo del dispositivo.
